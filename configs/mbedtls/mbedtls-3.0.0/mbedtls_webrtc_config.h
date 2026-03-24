@@ -30,5 +30,13 @@
 
 #include "mbedtls/mbedtls_config.h"
 
+/* Enable debug functionality */
+#define MBEDTLS_DEBUG_C
+#define MBEDTLS_DTLS_DEBUG_C
 
+#define MBEDTLS_PLATFORM_C
+#define MBEDTLS_ERROR_C
+
+/* Enable file I/O operations for certificate parsing */
+#define MBEDTLS_FS_IO
 #endif /* MBEDTLS_CUSTOM_CONFIG_H */

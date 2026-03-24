@@ -24,7 +24,6 @@
 #include "mbedtls/pem.h"
 #include "mbedtls/sha256.h"
 #include "mbedtls/ssl.h"
-#include "mbedtls/debug.h"
 
 #ifdef MBEDTLS_PSA_CRYPTO_C
 /* MbedTLS PSA Includes */
